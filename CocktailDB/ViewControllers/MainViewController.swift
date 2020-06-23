@@ -75,7 +75,6 @@ class MainViewController: UIViewController, DataFilterDelegate {
     
     func updateInfromation(filterArray: [String]) {
         filteredCategories = filterArray
-        print("filteredCategoriesArray update", filteredCategories)
        
     }
     

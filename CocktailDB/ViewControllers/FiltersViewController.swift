@@ -55,7 +55,6 @@ class FiltersViewController: UIViewController {
         
         delegate?.updateInfromation(filterArray: selectedFilters)
         navigationController?.popViewController(animated: true)
-        print("apply", selectedFilters)
     }
     
     private func getFiltersList() {
